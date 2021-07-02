@@ -1,0 +1,501 @@
+* {
+  margin: 5px;
+}
+
+.logo {
+  height: auto;
+  width: auto;
+  margin-left: 30px;
+}
+
+.ancho {
+  width: 50%;
+  min-width: auto;
+  margin-left: 700px;
+  margin-top: 50px;
+}
+
+.buscar {
+  width: 100%;
+  height: 100%;
+  margin-left: 700px;
+  margin-top: 50px;
+}
+
+.iconos {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.header {
+  background-color: rgba(245, 208, 208, 0.116);
+  height: auto;
+  width: 100%;
+  min-width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.carrito {
+  width: 50%;
+  min-width: auto;
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
+.section {
+  background-color: rgba(158, 105, 105, 0.226);
+}
+
+.menu {
+  background-color: #9b0000;
+}
+
+.fotoUno {
+  margin-top: 50px;
+  height: 90vh;
+  width: 100%;
+}
+
+.titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  font-size: 80px;
+  font-family: 'Limelight', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 100px;
+}
+
+.caja {
+  width: 100%;
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.botonHome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 70px;
+  padding: 60px;
+}
+
+.nosotros {
+  display: -ms-grid;
+  display: grid;
+  grid-row: 1;
+  grid-column: 1;
+  grid-area: nosotros;
+}
+
+.compras {
+  display: -ms-grid;
+  display: grid;
+  grid-row: 1;
+  grid-column: 2;
+  grid-area: compras;
+}
+
+.ayuda {
+  display: -ms-grid;
+  display: grid;
+  grid-row: 1;
+  grid-column: 3;
+  grid-area: ayuda;
+}
+
+.suscribite {
+  border: solid 2px black;
+  display: -ms-grid;
+  display: grid;
+  grid-row: 1;
+  grid-column: 4;
+  grid-area: suscribite;
+}
+
+.lista {
+  list-style: none;
+}
+
+.footer {
+  background-color: rgba(146, 140, 140, 0.178);
+  margin-top: 30px;
+  padding: 15px;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "nosotros compras ayuda suscribite";
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.instagram {
+  margin-left: 40px;
+}
+
+.copy {
+  margin-top: 100px;
+  font-size: 15px;
+}
+
+.ghdev {
+  margin-left: 200px;
+  margin-top: 90px;
+  color: #1100ff;
+}
+
+.cajaCategorias {
+  margin-top: 30px;
+  padding: 5px;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "filtros fotos fotosUno"
+ " filtros fotosDos fotosTres "
+ " filtros fotosCuatro fotosCinco ";
+}
+
+.filtros {
+  width: 300px;
+  height: 900px;
+  padding: 20px;
+  margin-top: 50px;
+  border-right: solid 3px black;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-column: 1;
+  grid-area: filtros;
+}
+
+.margenFiltros {
+  border-bottom: solid 2px black;
+  padding: 15px;
+  margin-bottom: 35px;
+}
+
+.fotos {
+  margin-top: 10px;
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  grid-row: 1;
+  grid-column: 2;
+  grid-area: fotos;
+}
+
+.fotosUno {
+  margin-top: 10px;
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  grid-row: 1;
+  grid-column: 3;
+  grid-area: fotosUno;
+}
+
+.fotosDos {
+  margin-top: 10px;
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  grid-row: 2;
+  grid-column: 2;
+  grid-area: fotosDos;
+}
+
+.fotosTres {
+  margin-top: 10px;
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  grid-row: 2;
+  grid-column: 3;
+  grid-area: fotosTres;
+}
+
+.fotosCuatro {
+  margin-top: 10px;
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  grid-row: 3;
+  grid-column: 2;
+  grid-area: fotosCuatro;
+}
+
+.fotosCinco {
+  margin-top: 10px;
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  grid-row: 3;
+  grid-column: 3;
+  grid-area: fotosCinco;
+}
+
+.fotos img:hover {
+  border: solid 2px;
+  color: black;
+}
+
+.fotosUno img:hover {
+  border: solid 2px;
+  color: black;
+}
+
+.fotosDos img:hover {
+  border: solid 2px;
+  color: black;
+}
+
+.fotosTres img:hover {
+  border: solid 2px;
+  color: black;
+}
+
+.fotosCuatro img:hover {
+  border: solid 2px;
+  color: black;
+}
+
+.fotosCinco img:hover {
+  border: solid 2px;
+  color: black;
+}
+
+.producto {
+  margin: 10px;
+  padding: 10px;
+}
+
+.cajaProducto {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "imgProducto soquetes";
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.imagenProducto {
+  display: -ms-grid;
+  display: grid;
+  grid-row: 1;
+  grid-column: 1;
+  grid-area: imgProducto;
+}
+
+.soquete {
+  margin-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  grid-row: 1;
+  grid-column: 2;
+  grid-area: soquetes;
+  justify-items: flex-start;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.talle {
+  padding-bottom: 35px;
+  width: 600px;
+  border-bottom: solid 1px black;
+}
+
+.tituloProducto {
+  padding-bottom: 45px;
+  width: 600px;
+  border-bottom: solid 1px black;
+}
+
+.descripcion {
+  border-top: solid 1px black;
+  margin-top: 50px;
+  margin-left: 100px;
+  padding: 50px;
+  font-size: 25px;
+}
+
+.fabrica {
+  margin-left: 20px;
+  padding: 5px;
+  margin-top: 20px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Dela Gothic One', cursive;
+  color: black;
+  background-image: url(/img/QuienesSomos2.jpeg);
+  background-repeat: repeat;
+}
+
+.quienesSomos {
+  margin-left: 400px;
+  padding: 100px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  width: 900px;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.iniciarSesion {
+  height: 500px;
+  margin-left: 20px;
+  padding: 5px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(/img/iniciarSesion.jpeg);
+  background-repeat: repeat;
+  font-size: 100px;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+}
+
+.cantidad {
+  width: 80px;
+}
+
+.formulario {
+  width: 800px;
+  margin-left: 450px;
+  margin-bottom: 30px;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: rgba(240, 172, 172, 0.438);
+  font-size: 25px;
+}
+
+.botonFormulario {
+  margin-top: 80px;
+  padding: 15px;
+  margin-left: 700px;
+  width: 280px;
+}
+
+@media (max-width: 770px) {
+  .footer {
+    display: inline-block;
+  }
+  .iconos {
+    width: 100%;
+    display: none;
+  }
+  .cajaCategorias {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "filtros fotos"
+ " filtros fotosUno"
+ " filtros fotosDos "
+ "filtros fotosTres"
+ " filtros fotosCuatro"
+ "filtros  fotosCinco ";
+  }
+  .pan {
+    display: none;
+  }
+  .cajaProducto {
+    display: inline-block;
+  }
+  .quienesSomos {
+    width: 100%;
+    display: inline-block;
+    margin-left: 40px;
+    padding: 50px;
+  }
+  .formulario {
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+  }
+  .botonFormulario {
+    width: 80%;
+    display: inline-block;
+    margin-left: 30%;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    width: 100%;
+    display: inline-block;
+  }
+  .cajaCategorias {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "filtros"
+ " fotos"
+ "  fotosUno"
+ "  fotosDos "
+ " fotosTres"
+ "  fotosCuatro"
+ "  fotosCinco ";
+  }
+  .cajaProducto img {
+    width: 70%;
+    display: inline-block;
+  }
+  .corazonProducto {
+    width: 10%;
+  }
+}

@@ -1,0 +1,13 @@
+@import "estilo";
+
+@for $i from 4 through 1 {
+
+    .item-#{$i} {
+
+        font-size: 18px*$i;
+        margin-left: 5px;
+
+    }
+    
+
+}
